@@ -1,0 +1,21 @@
+extends layout
+block content
+  h1  FineJS - Online Javascript tool to beautify/prettify your Javascript Code
+  section.css-table
+    section.two-column
+      section.cell
+      form(action="/" method="post")
+          div
+              span.label Paste your code here
+              textarea(id="oldCode" name="oldCode", cols="60", rows="18")
+          div.actions
+              button(type="submit") Beautify Code
+
+      section.cell
+
+      form(name="formTwo", method="display")
+          div.input
+              span.label Formatted code shown here
+              textarea(name="description", cols="60", rows="18")=fineJS
+
+  section.css-table

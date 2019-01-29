@@ -1,0 +1,25 @@
+{
+  "name": "finejs",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha",
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "beautify": "0.0.8",
+    "body-parser": "1.15.1",
+    "cookie-parser": "1.4.3",
+    "debug": "2.2.0",
+    "express": "4.13.4",
+    "jade": "1.11.0",
+    "js-beautify": "^1.8.9",
+    "morgan": "1.7.0",
+    "serve-favicon": "2.3.0",
+    "ssl-express-www": "^3.0.3",
+    "stylus": "0.54.5"
+  },
+  "devDependencies": {
+    "mocha": "3.1.0"
+  }
+}

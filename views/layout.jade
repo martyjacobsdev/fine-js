@@ -1,0 +1,23 @@
+doctype
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/stylesheets/chunkfive-fontface.css')
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js")
+    script(src="bookmark.js")
+  body
+    header
+      nav
+        ul
+          li
+            a(href="/") Home
+          li
+            a(id="bookmark-this" onclick="bookmarkPage()") Bookmark Page
+
+    section#wrapper
+      block content
+      footer
+        section.css-table
+          section.four-column
+            section.cell
