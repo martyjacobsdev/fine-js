@@ -34,4 +34,4 @@ To deploy this application on Heroku - [follow this guide](https://devcenter.her
 
 <h2>Contact</h2>
 
-https://github.com/marty135
+https://github.com/majikarp
